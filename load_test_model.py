@@ -1,4 +1,4 @@
-from keras.models import load_model
+from keras.api.models import load_model
 from CNN.preprocessing import ImageToArray
 from CNN.preprocessing import PreProcessor
 from CNN.datasets.DatasetLoader import DatasetLoader
